@@ -55,7 +55,7 @@ public class GameController {
         Universe universe = universeInstanciatedFromClickedCells(rows, columns, request);
         universe.createNextGeneration();
 
-        thinkABit(250); // Pause for random time
+        thinkABit(250); // Pause for random time 
 
         return showGridScreen(universe);
     }
