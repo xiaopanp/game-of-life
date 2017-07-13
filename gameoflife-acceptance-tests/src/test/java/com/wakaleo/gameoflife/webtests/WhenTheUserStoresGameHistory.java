@@ -25,3 +25,4 @@ public class WhenTheUserStoresGameHistory {
     @Test
     public void aUserShouldBeAbleToReplayAStoredSimulation() {}
 }
+
